@@ -2,6 +2,8 @@
 
 set -e
 
+# Make dir if not exists
+mkdir -p /host-ssh
 # Grants host ssh config to root
 mkdir -p ~/.ssh
 cp -r /host-ssh/* ~/.ssh/
